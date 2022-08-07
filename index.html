@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mostafa's Portfolio</title>
+  <!--Unicons-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <!--Swiper Css-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <!-- Render All Elements Normally -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Main Template CSS File -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">Mostafa</a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list grid">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">
+              <i class="uil uil-estate nav-icon"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              <i class="uil uil-user nav-icon"></i> About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              <i class="uil uil-file-alt nav-icon"></i> Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">
+              <i class="uil uil-briefcase-alt nav-icon"></i> Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">
+              <i class="uil uil-scenery nav-icon"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <i class="uil uil-message nav-icon"></i> Contact Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav-close" id="nav-close"></i>
+      </div>
+      <div class="nav-btns">
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home-container container grid">
+        <div class="home-content grid">
+          <div class="home-social">
+            <a href="https://www.linkedin.com/in/mostafa-mhli-560430200/" target="_blank" class="home-social-link">
+              <i class="uil uil-linkedin home-social-icon"></i>
+            </a>
+            <a href="https://github.com/mostafamhli" target="_blank" class="home-social-link">
+              <i class="uil uil-github home-social-icon"></i>
+            </a>
+            <a href="https://www.facebook.com/Mostafa.F.Mhli" target="_blank" class="home-social-link">
+              <i class="uil uil-facebook home-social-icon"></i>
+            </a>
+          </div>
+          <div class="home-img">
+            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home-blob-img" x='12' y="18" xlink:href="img/Me.png" />
+              </g>
+            </svg>
+          </div>
+          <div class="home-data">
+            <h1 class="home-title">Hi, I'am Mostafa </h1>
+            <h3 class="home-subtitle">Frontend Developer</h3>
+            <p class="home-description">High level experience in web design and development knowledge, producing quality
+              work.</p>
+            <a href="#contact" class="button button--flex">
+              Contact Me<i class="uil uil-message button-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home-scroll">
+          <a href="#about" class="home-scroll-button button--flex">
+            <i class="uil uil-mouse-alt home-scroll-mouse"></i>
+            <span class="home-scroll-name">Scroll Down</span>
+            <i class="uil uil-arrow-down home-scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--About-->
+    <section class="section about" id="about">
+      <h2 class="section-title">About Me</h2>
+      <span class="section-subtitle">My Introduction</span>
+
+      <div class="about-container container grid">
+        <img src="img/about.jpg" alt="about image" class="about-img">
+        <div class="about-data">
+          <p class="about-description">I am a fast-learner, team-worker, interested in Front-end web developer role and
+            I want to improve my skills in a respected company, that makes me develop best
+            websites and learn new things to give an added value for the right place in my
+            work journey</p>
+          <div class="about-info">
+            <div>
+              <span class="about-info-title">02+</span>
+              <span class="about-info-name">Years <br /> experience</span>
+            </div>
+            <div>
+              <span class="about-info-title">02</span>
+              <span class="about-info-name">Completed <br /> project</span>
+            </div>
+            <div>
+              <span class="about-info-title">01</span>
+              <span class="about-info-name">Company <br /> worked</span>
+            </div>
+          </div>
+          <div class="about-buttons">
+            <a download='' href="img/Mostafa Mhli.pdf" class="button button--flex">
+              Download CV<i class="uil uil-download-alt button-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Skills-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <span class="section-subtitle">My Technical Level</span>
+
+      <div class="skills-container container grid">
+        <div>
+          <div class="skills-content skills-open">
+            <div class="skills-header">
+              <i class="uil uil-brackets-curly skills-icon"></i>
+
+              <div>
+                <h1 class="skills-title">Frontend Developer</h1>
+                <span class="skills-subtitle">More than 2 years</span>
+              </div>
+
+              <i class="uil uil-angle-down skills-arrow"></i>
+            </div>
+
+            <div class="skills-list grid">
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">HTML</h3>
+                  <span class="skills-number">95%</span>
+                </div>
+                <div class="skills-bar">
+                  <span class="skills-percentage skills-html" data-progress="95"></span>
+                </div>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">CSS</h3>
+                  <span class="skills-number">90%</span>
+                </div>
+                <div class="skills-bar">
+                  <span class="skills-percentage skills-css" data-progress="90"></span>
+                </div>
+              </div>
+
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">TypeScript</h3>
+                  <span class="skills-number">85%</span>
+                </div>
+                <div class="skills-bar">
+                  <span class="skills-percentage skills-typescript" data-progress="85"></span>
+                </div>
+              </div>
+
+
+              <div class="skills-data">
+                <div class="skills-titles">
+                  <h3 class="skills-name">Angular</h3>
+                  <span class="skills-number">85%</span>
+                </div>
+                <div class="skills-bar">
+                  <span class="skills-percentage skills-angular" data-progress="85"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Qualification-->
+    <section class="qualification section">
+      <h2 class="section-title">Qualification</h2>
+      <span class="section-subtitle">My Personal Journey</span>
+      <div class="qualification-container container">
+        <div class="qualification-tabs">
+          <div class="qualification-button button--flex">
+            <i class="uil uil-graduation-cap qualification-icon"></i>
+            Education
+          </div>
+
+          <div class="qualification-button button--flex">
+            <i class="uil uil-briefcase-alt qualification-icon"></i>
+            Work
+          </div>
+        </div>
+        <div class="qualification-sections">
+          <div class="qualification-content">
+            <!--Qualification 1-->
+            <div class="qualification-data">
+              <div>
+                <h3 class="qualification-title">Software Engineer</h3>
+                <span class="qualification-subtitle">Albaath - University</span>
+                <div class="qualification-calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2016 - 2021
+                </div>
+              </div>
+              <div>
+                <span class="qualification-rounder"></span>
+                <span class="qualification-line"></span>
+              </div>
+            </div>
+
+
+            <!--Qualification 2-->
+            <div class="qualification-data">
+              <div></div>
+              <div>
+                <span class="qualification-rounder"></span>
+                <span class="qualification-line"></span>
+              </div>
+              <div>
+                <h3 class="qualification-title">Frontend Developer</h3>
+                <span class="qualification-subtitle">NorthExcel - Company</span>
+                <div class="qualification-calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021 - 2022
+                </div>
+              </div>
+            </div>
+
+
+            <!--Qualification 3-->
+            <div class="qualification-data">
+
+              <div>
+                <h3 class="qualification-title">Master in Software Engineering</h3>
+                <span class="qualification-subtitle">Damascus - University</span>
+                <div class="qualification-calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2022 - present
+                </div>
+              </div>
+              <div>
+                <span class="qualification-rounder"></span>
+                <span class="qualification-line"></span>
+              </div>
+              <div></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Services-->
+    <section class="services section" id="services">
+      <h2 class="section-title">Services</h2>
+      <span class="section-subtitle">What i offer</span>
+
+      <div class="services-container container grid">
+        <div class="services-content">
+          <div>
+            <i class="uil uil-arrow services-icon"></i>
+            <h3 class="services-title">Frontend Web Developer</h3>
+          </div>
+          <span class="button button--flex button-small button-link services-button">
+            View More
+            <i class="uil uil-arrow-right button-icon"></i>
+          </span>
+          <div class="services-modal">
+            <div class="services-modal-content">
+              <h4 class="services-modal-title">Frontend Developer</h4>
+              <i class="uil uil-times services-modal-close"></i>
+
+              <ul class="services-modal-services grid">
+                <li class="services-modal-service">
+                  <i class="uil uil-check-circle services-modal-icon"></i>
+                  <p>Develop web application using Angular, JavaScript, TypeScript, Html5, CSS3 and Bootstrap.</p>
+                </li>
+
+                <li class="services-modal-service">
+                  <i class="uil uil-check-circle services-modal-icon"></i>
+                  <p>Implement RESTful APIs.</p>
+                </li>
+
+
+                <li class="services-modal-service">
+                  <i class="uil uil-check-circle services-modal-icon"></i>
+                  <p>I create ux element interactions.</p>
+                </li>
+
+                <li class="services-modal-service">
+                  <i class="uil uil-check-circle services-modal-icon"></i>
+                  <p> Trouble shooting and problem solving.</p>
+                </li>
+
+
+                <li class="services-modal-service">
+                  <i class="uil uil-check-circle services-modal-icon"></i>
+                  <p> Working in Agile environment.</p>
+                </li>
+
+
+                <li class="services-modal-service">
+                  <i class="uil uil-check-circle services-modal-icon"></i>
+                  <p>Use repository tools (Git).</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Portfolio Section-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+      <span class="section-subtitle">Most Recent Work</span>
+
+      <div class="portfolio-container container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/north-excel-logo.png" alt="NorthExcel logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">NorthExcel Website</h3>
+              <p class="portfolio-description">This platform was initiated to help students from the Middle East and
+                North Africa (MENA) wishing to obtain academic degrees in the European Union.</p>
+              <a href="https://www.north-excel.com" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/weather-app-logo.png" alt="Weather App logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Weather Website</h3>
+              <p class="portfolio-description">it is a web application that shows the temperature according to a
+                person's geographical location, in addition to showing wind speed, humidity, highest temperature and
+                lowest temperature, Created Using: Angular, TypeScript, HTML5 and CSS3.</p>
+              <a href="https://mostafamhli.github.io/weatherapp/" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/memory-game.png" alt="Memory Game logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Memory Game</h3>
+              <p class="portfolio-description">It is a game to measure the mental ability to memorize the locations of
+                images, Created Using: HTML5, CSS and Javascript.</p>
+              <a href="https://mostafamhli.github.io/memory-game/" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/typing-game.png" alt="Typing Speed Game logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Typing Speed Game</h3>
+              <p class="portfolio-description">It is a game aimed at people who are interested in how fast they can type
+                on the keyboard, Created Using:HTML5, CSS3 and Javascript.</p>
+              <a href="https://mostafamhli.github.io/Typing-Speed-Test-Game/" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/special-design.png" alt="special design logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Special Design</h3>
+              <p class="portfolio-description">Designed Using HTML5, CSS3 and Javascript,
+              <ul>It has many features:
+                <li><i class="uil uil-check-circle services-modal-icon"></i>Change the main color of site to six colors.
+                </li>
+                <li><i class="uil uil-check-circle services-modal-icon"></i>background image changes every five seconds.
+                </li>
+                <li><i class="uil uil-check-circle services-modal-icon"></i>bullet Which helps to navigate between
+                  sections of the site smoothly.</li>
+                <li><i class="uil uil-check-circle services-modal-icon"></i>Using slide-in and fade-in animation.</li>
+              </ul>
+              </p>
+              <a href="https://mostafamhli.github.io/special-design-using-html-css-js/" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/template3.png" alt="HTML&CSS Template3 logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">HTML&CSS Template3</h3>
+              <p class="portfolio-description">This website has been developed using the following technologies: HTML5,
+                CSS3 and Bootstrap. <br />
+                Designed to be compatible with all screen sizes</p>
+              <a href="https://mostafamhli.github.io/HTML_And_CSS_Template_Three/" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/template2.png" alt="HTML&CSS Template2 logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">HTML&CSS Template2</h3>
+              <p class="portfolio-description">This website has been developed using the following technologies: HTML5,
+                CSS3 and Bootstrap. <br />
+                Designed to be compatible with all screen sizes</p>
+              <a href="https://mostafamhli.github.io/HTML_And_CSS_Template_Two/" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content grid swiper-slide">
+            <img src="img/template1.png" alt="HTML&CSS Template1 logo" class="portfolio-img">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">HTML&CSS Template1</h3>
+              <p class="portfolio-description">This website has been developed using the following technologies: HTML5,
+                CSS3 and Bootstrap. <br />
+                Designed to be compatible with all screen sizes</p>
+              <a href="https://mostafamhli.github.io/HTML_And_CSS_Template_One/" class="button button--flex button-small portfolio-button">
+                Demo
+                <i class="uil uil-arrow-right button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--Project in mind-->
+    <section class="project section">
+      <div class="project-bg">
+        <div class="project-container container grid">
+          <div class="project-data">
+            <h2 class="project-title">You have a new project</h2>
+            <p class="project-description">Contact me now and get a 30% discount on your new project.</p>
+            <a href="#contact" class="button button--flex button-white">
+              Contact Me
+              <i class="uil uil-message project-icon button-icon"></i>
+            </a>
+          </div>
+          <div class="home-img">
+            <svg class="home-blob" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask1" mask-type="alpha">
+                <path d="
+                M 0, 100
+                C 0, 67 67, 0 100, 0
+                S 200, 67 200, 100
+                    133, 200 100, 200
+                    0, 133 0, 100
+            " fill="#6e57e0" transform="rotate(
+                45,
+                100,
+                100
+            ) translate(
+                0
+                0
+            )"></path>
+              </mask>
+              <g mask="url(#mask1)">
+                <path d="
+                M 0, 100
+                C 0, 67 67, 0 100, 0
+                S 200, 67 200, 100
+                    133, 200 100, 200
+                    0, 133 0, 100
+            " fill="#6e57e0" transform="rotate(
+                45,
+                100,
+                100
+            ) translate(
+                0
+                0
+            )"></path>
+                <image class="project-img" x='12' y="18" xlink:href="img/Me.png" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact Me-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <span class="section-subtitle">Get in touch</span>
+
+      <div class="contact-container container grid">
+        <div>
+          <div class="contact-information">
+            <i class="uil uil-phone contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Call Me</h3>
+              <span class="contact-subtitle">+963953883902</span>
+            </div>
+          </div>
+
+
+          <div class="contact-information">
+            <i class="uil uil-envelope contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Email</h3>
+              <span class="contact-subtitle">mostafamhli1234@gmail.com</span>
+            </div>
+          </div>
+
+
+          <div class="contact-information">
+            <i class="uil uil-map-marker contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Location</h3>
+              <span class="contact-subtitle">Syria - Homs</span>
+            </div>
+          </div>
+        </div>
+        <form action="" class="contact-form grid">
+          <div class="contact-inputs grid">
+            <div class="contact-content">
+              <label for="" class="contact-label">Name</label>
+              <input type="text" class="contact-input">
+            </div>
+
+            <div class="contact-content">
+              <label for="" class="contact-label">Email</label>
+              <input type="email" class="contact-input">
+            </div>
+          </div>
+          <div class="contact-content">
+            <label for="" class="contact-label">Project</label>
+            <input type="text" class="contact-input">
+          </div>
+          <div class="contact-content">
+            <label for="" class="contact-label">Message</label>
+            <textarea name="" id="" cols="0" rows="7" class="contact-input"></textarea>
+          </div>
+          <div>
+            <a href="#" class="button button--flex">
+              Send Message
+              <i class="uil uil-message button-icon"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-bg">
+      <div class="footer-container container grid">
+        <div>
+          <h1 class="footer-title">Mostafa</h1>
+          <span class="footer-subtitle">Frontend Developer</span>
+        </div>
+        <ul class="footer-links">
+          <li>
+            <a href="#services" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="footer-link">Portfolio</a>
+          </li>
+
+
+          <li>
+            <a href="#contact" class="footer-link">Contact Me</a>
+          </li>
+        </ul>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/Mostafa.F.Mhli" target="_blank" class="footer-social">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mostafa-mhli-560430200/" target="_blank" class="footer-social">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+
+          <a href="https://github.com/mostafamhli" target="_blank" class="footer-social">
+            <i class="uil uil-github-alt"></i>
+          </a>
+        </div>
+      </div>
+      <p class="footer-copy">&#169; Mostafa. All Right Reserved</p>
+    </div>
+  </footer>
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup-icon"></i>
+  </a>
+  <script src="JS/swiper-bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
